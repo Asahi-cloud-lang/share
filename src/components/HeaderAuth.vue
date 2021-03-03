@@ -4,7 +4,7 @@
       <img class="logo" src="../assets/logo.png">
     </div>
     <div class="right flex">
-      <p @click="$router.push('/sighup')">新規登録</p>
+      <p @click="$router.push('/signup')">新規登録</p>
       <p @click="$router.push('/')">ログイン</p>
     </div>
   </div>
