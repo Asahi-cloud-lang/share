@@ -36,7 +36,7 @@ export default new Vuex.Store({
         }
       );
       const responseUser = await axios.get(
-        "herokuのURL/api/user",
+        "https://peaceful-escarpment-39459.herokuapp.comL/api/user",
         {
           params: {
             email: email,
