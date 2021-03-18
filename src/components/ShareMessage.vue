@@ -22,7 +22,7 @@ export default {
         alert("シェアする内容を入力してください");
       } else {
         axios
-          .post("https://murmuring-brook-68370.herokuapp.com/api/shares", {
+          .post("https://rocky-woodland-58136.herokuapp.com/api/shares", {
             user_id: this.$store.state.user.id,
             share: this.share,
           })

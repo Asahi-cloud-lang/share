@@ -44,7 +44,7 @@ export default {
   methods: {
     send() {
       axios
-        .post("https://murmuring-brook-68370.herokuapp.com/api/comment", {
+        .post("https://rocky-woodland-58136.herokuapp.com/api/comment", {
           share_id: this.id,
           user_id: this.$store.state.user.id,
           content: this.content,
@@ -60,7 +60,7 @@ export default {
     },
     comment() {
       axios
-        .get("https://murmuring-brook-68370.herokuapp.com/api/shares/" + this.id)
+        .get("https://rocky-woodland-58136.herokuapp.com/api/shares/" + this.id)
         .then((response) => {
           this.data = response.data.comment;
         });

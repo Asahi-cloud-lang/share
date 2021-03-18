@@ -32,7 +32,7 @@ export default {
   methods: {
     auth() {
       axios
-        .post("https://murmuring-brook-68370.herokuapp.com/api/register", {
+        .post("https://rocky-woodland-58136.herokuapp.com/api/register", {
           name: this.name,
           profile: this.profile,
           email: this.email,
